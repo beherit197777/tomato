@@ -25,8 +25,11 @@ class GoCommand extends Command
      */
     public function handle()
     {
-        Post::create([
-            'title' => 'My awesome post'
-        ]);
+        Post::create(
+            [
+             'title' => ' my Post'
+            ]
+        );
+
     }
 }
